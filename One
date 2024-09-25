@@ -1,0 +1,17 @@
+#include<stdio.h>
+main()
+{
+int x[100],i,n,big;
+printf("enter how many value=");
+scanf("%d",&n);
+printf("enter the value");
+for(i=0;i<n;i++)
+scanf("%d",&x[i]);
+big=x[0];
+for(i=0;i<n;i++)
+{ 
+if(x[i]>big)
+big =x[i];
+}
+printf("biggest=%d",big);
+}
